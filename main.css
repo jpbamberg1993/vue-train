@@ -1,0 +1,27 @@
+:root {
+	--dark-red: #b30000;
+}
+
+.btn {
+	background-color: #5f9f9f;
+	border: none;
+	color: #fff;
+	padding: 5px 20px;
+}
+
+.btn-cancel {
+	background-color: var(--dark-red);
+}
+
+.strikeout {
+	color: #a9a9a9;
+	text-decoration: line-through;
+}
+
+.priority {
+	color: var(--dark-red);
+}
+
+.item:hover {
+	cursor: pointer;
+}
